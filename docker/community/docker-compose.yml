@@ -112,6 +112,7 @@ services:
         max-size: '50m'
         max-file: '5'
     environment:
+      API_ROOT_URL: ${API_ROOT_URL}
       NODE_ENV: ${NODE_ENV}
       MONGO_URL: ${MONGO_URL}
       MONGO_MAX_POOL_SIZE: ${MONGO_MAX_POOL_SIZE}
