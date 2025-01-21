@@ -90,7 +90,7 @@ services:
       AUTO_CREATE_INDEXES: ${AUTO_CREATE_INDEXES}
       VIRTUAL_HOST_MULTIPORTS: |-
         {
-          novu.amtdev.it": {
+          "novu.amtdev.it": {
             "/api": { "port": ${API_PORT} , "dest": "/api" }
           }
         }
@@ -164,7 +164,7 @@ services:
       NEW_RELIC_LICENSE_KEY: ${NEW_RELIC_LICENSE_KEY}
       VIRTUAL_HOST_MULTIPORTS: |-
         {
-          novu.amtdev.it": {
+          "novu.amtdev.it": {
             "/ws": { "port": ${WS_PORT} , "dest": "/ws" }
           }
         }
@@ -192,7 +192,7 @@ services:
       REACT_APP_WS_URL: ${REACT_APP_WS_URL}
       VIRTUAL_HOST_MULTIPORTS: |-
         {
-          novu.amtdev.it": {
+          "novu.amtdev.it": {
             "/dashboard": { "port": 4200 , "dest": "/dashboard" }
             "/widget": { "port": 4701 , "dest": "/widget" }
           }
