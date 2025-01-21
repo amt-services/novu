@@ -193,7 +193,7 @@ services:
       VIRTUAL_HOST_MULTIPORTS: |-
         {
           "novu.amtdev.it": {
-            "/dashboard": { "port": 4200  }
+            "/dashboard/": { "port": 4200  }
           }
         }
       LETSENCRYPT_HOST: novu.amtdev.it
