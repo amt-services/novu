@@ -245,3 +245,7 @@ services:
 
 volumes:
   mongodb: ~
+  certs:
+  vhost:
+  html:
+  acme:
