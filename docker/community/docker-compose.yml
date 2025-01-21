@@ -60,6 +60,7 @@ services:
         max-size: '50m'
         max-file: '5'
     environment:
+      NOVU_SECRET_KEY: ${NOVU_SECRET_KEY}
       NODE_ENV: ${NODE_ENV}
       API_ROOT_URL: ${API_ROOT_URL}
       DISABLE_USER_REGISTRATION: ${DISABLE_USER_REGISTRATION}
